@@ -1,5 +1,5 @@
 #!/bin/bash
-export RUN_PHP='/usr/bin/scl enable rh-php56 '
+export RUN_PHP='/usr/bin/scl enable rh-php71 '
 export RUN_PYTHON='/usr/bin/scl enable rh-python36 '
 export PATH_TO_MISP='/var/www/MISP'
 export CAKE="$PATH_TO_MISP/app/Console/cake"
